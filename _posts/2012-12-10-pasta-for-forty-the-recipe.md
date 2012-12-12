@@ -2,10 +2,9 @@
 layout: post
 title: "Pasta for Forty: The Recipe"
 category: food
-tags: []
+tags: [pasta, chemistry, warehome, recipe] 
+image: https://sphotos-a.xx.fbcdn.net/hphotos-prn1/550939_636760869167_1593005442_n.jpg
 ---
-
-![Pasta night supplies](https://sphotos-a.xx.fbcdn.net/hphotos-prn1/550939_636760869167_1593005442_n.jpg)
 
 ### Ingredients
 
@@ -93,3 +92,4 @@ The vodka sauce starts with the basic sauce.  The following is how I turn roughl
 
 [1]: http://en.wikipedia.org/wiki/Mirepoix_(cuisine)
 [2]: http://www.ehow.com/video_2339605_caramelize-tomatoes-spaghetti-sauce.html
+[3]: https://sphotos-a.xx.fbcdn.net/hphotos-prn1/550939_636760869167_1593005442_n.jpg
