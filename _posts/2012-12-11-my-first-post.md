@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "My First Post"
-category: 
+title: "My Startup Ideas"
+category: startup
 tags: []
 ---
 

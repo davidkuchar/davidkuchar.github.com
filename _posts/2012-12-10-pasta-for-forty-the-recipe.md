@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Pasta for Forty: The Recipe"
-category: 
+category: food
 tags: []
 ---
 
@@ -49,7 +49,7 @@ tags: []
 
 #### Basic Pasta Sauce
 
-1. Prep garlic, carrots, celery, onions.  Garlic should be crushed and diced.  Peel and dice onions.  Peel and dice carrots.  Clean and dice celery.  Onion/Carrots/Celery should all be in the same quantity, and they make up the [The Mirepoix](http://en.wikipedia.org/wiki/Mirepoix_(cuisine)).
+1. Prep garlic, carrots, celery, onions.  Garlic should be crushed and diced.  Peel and dice onions.  Peel and dice carrots.  Clean and dice celery.  Onion/Carrots/Celery should all be in the same quantity, and they make up the [The Mirepoix][1].
 
 2. In a pan that's big enough to fit everything prepared thus far, heat olive oil, garlic, chili pepper flakes.  Heat a few minutes, adjust heat and stir to make sure nothing burns. 
 
@@ -57,7 +57,7 @@ tags: []
 
 4. Add carrots and celery, coat with sea salt.  Cook until translucent, maybe 10 or so minutes.  Keep stirring!
 
-5. Add tomato paste and add some water as necessary to keep the mixture from dying out and burning.  Let tomato paste [caramelize](http://www.ehow.com/video_2339605_caramelize-tomatoes-spaghetti-sauce.html).
+5. Add tomato paste and add some water as necessary to keep the mixture from dying out and burning.  Let tomato paste [caramelize][2].
 
 6. Move entire mixture to a large pot.
 
@@ -90,3 +90,6 @@ The vodka sauce starts with the basic sauce.  The following is how I turn roughl
 3. Add parmesan cheese - I like to put in about 2 cups of it.  Let it all melt into the sauce.
 
 4. Cook penne as you did the linguini, adding it to the vodka sauce at the end and serving it from the pot.
+
+[1]: http://en.wikipedia.org/wiki/Mirepoix_(cuisine)
+[2]: http://www.ehow.com/video_2339605_caramelize-tomatoes-spaghetti-sauce.html
