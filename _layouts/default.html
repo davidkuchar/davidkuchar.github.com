@@ -1,15 +1,22 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="/bootstrap/css/bootstrap.min.css"/>
+
+	<link href='http://fonts.googleapis.com/css?family=Rambla' rel='stylesheet' type='text/css'>
 </head>
 
-
 <body>
-
-	<header class="hero-unit">
-	  <h1><a href="/">david out of context</a></h1>
-	  <a href="/about.html">about me</a>
+	<header>
+		<div class="container">
+			<h1><a href="/">david out of context</a></h1>
+			<ul class="nav nav-pills">
+				<li>
+					<a href="/about.html">about me</a>
+				</li>
+			</ul>
+		</div>
 	</header>
+
 	<div class="container">
 		{{ content }}
 	</div>
