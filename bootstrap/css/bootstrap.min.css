@@ -834,12 +834,14 @@ a.label:hover,a.badge:hover{color:#ffffff;text-decoration:none;cursor:pointer;}
 .show{display:block;}
 .invisible{visibility:hidden;}
 .affix{position:fixed;}
+small{font-size:0.9em;}
 h1{font-family:'Libre Baskerville',serif;}
-h2{font-family:Helvetica,sans-serif;}
-body{font-size:1em;color:#333333;background-color:#d3e2b6;font-family:Helvetica,sans-serif;}body header{background-color:#444444;padding:20px 0;}
-body section#content{padding:30px 0;background-color:#FFFFFF;}body section#content #index #posts .post{margin-bottom:50px;}body section#content #index #posts .post .title{margin-bottom:15px;}body section#content #index #posts .post .title div{line-height:40px;margin:10px 0 10px 20px;}
+h2{font-family:Georgia,Helvetica,sans-serif;}
+li{line-height:1.5em;}
+body{font-size:1.1em;line-height:1.5em;color:#333333;background-color:#d3e2b6;font-family:Georgia,Helvetica,sans-serif;}body header{background-color:#444444;padding:20px 0;}
+body section#content{padding:30px 0;background-color:#FFFFFF;}body section#content #index #posts .post{margin-bottom:50px;}body section#content #index #posts .post .title{margin-bottom:15px;}body section#content #index #posts .post .title small{line-height:40px;margin:10px 0 10px 20px;}
 body section#content #index #posts .post img{width:300px;float:right;}
-body section#content #post .title{margin-bottom:15px;}body section#content #post .title div{line-height:40px;margin:10px 0 10px 20px;}
+body section#content #post .title{margin-bottom:15px;}body section#content #post .title small{line-height:40px;margin:10px 0 10px 20px;}
 body section#content #post img{width:300px;float:right;}
 body section#content #post .comments{margin-top:30px;}
 body footer{padding:30px;background-color:#d3e2b6;}body footer ul{margin:0;list-style:none;}body footer ul li{float:left;}
