@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Pasta for Forty"
+image: 
 category: food
 tags: [pasta, chemistry, warehome] 
-image: 
 ---
 
 About four years ago my friend Tom served me his bolgonese at a dinner party, and I&#8217;d never tasted something so good. Since he&#8217;s a Manhattanite, and I live on the other side of the country in San Francisco, I set out to learn to make it myself, starting with roughly his original recipe.

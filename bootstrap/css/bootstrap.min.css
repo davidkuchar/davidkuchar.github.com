@@ -826,7 +826,7 @@ a.label:hover,a.badge:hover{color:#ffffff;text-decoration:none;cursor:pointer;}
 .carousel-caption h4,.carousel-caption p{color:#ffffff;line-height:20px;}
 .carousel-caption h4{margin:0 0 5px;}
 .carousel-caption p{margin-bottom:0;}
-.hero-unit{padding:60px;margin-bottom:30px;font-size:18px;font-weight:200;line-height:30px;color:inherit;background-color:#d3e2b6;-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px;}.hero-unit h1{margin-bottom:0;font-size:60px;line-height:1;color:#87bdb1;letter-spacing:-1px;}
+.hero-unit{padding:60px;margin-bottom:30px;font-size:18px;font-weight:200;line-height:30px;color:inherit;background-color:#eeeeee;-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px;}.hero-unit h1{margin-bottom:0;font-size:60px;line-height:1;color:inherit;letter-spacing:-1px;}
 .hero-unit li{line-height:30px;}
 .pull-right{float:right;}
 .pull-left{float:left;}
@@ -834,5 +834,13 @@ a.label:hover,a.badge:hover{color:#ffffff;text-decoration:none;cursor:pointer;}
 .show{display:block;}
 .invisible{visibility:hidden;}
 .affix{position:fixed;}
-header{background-color:#444;}header h1{font-family:'Rambla',sans-serif;}
-img.post-image{height:300px;}
+h1{font-family:'Libre Baskerville',serif;}
+h2{font-family:Helvetica,sans-serif;}
+body{font-size:1em;color:#333333;background-color:#d3e2b6;font-family:Helvetica,sans-serif;}body header{background-color:#444444;padding:20px 0;}
+body section#content{padding:30px 0;background-color:#FFFFFF;}body section#content #index #posts .post{margin-bottom:50px;}body section#content #index #posts .post .title{margin-bottom:15px;}body section#content #index #posts .post .title div{line-height:40px;margin:10px 0 10px 20px;}
+body section#content #index #posts .post img{width:300px;float:right;}
+body section#content #post .title{margin-bottom:15px;}body section#content #post .title div{line-height:40px;margin:10px 0 10px 20px;}
+body section#content #post img{width:300px;float:right;}
+body section#content #post .comments{margin-top:30px;}
+body footer{padding:30px;background-color:#d3e2b6;}body footer ul{margin:0;list-style:none;}body footer ul li{float:left;}
+body footer ul span{margin:0 10px;}

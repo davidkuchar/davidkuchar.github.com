@@ -35,10 +35,8 @@ task :post do
     post.puts "layout: post"
     post.puts "title: \"#{title.gsub(/-/,' ')}\""
     post.puts "image: "
-    post.puts "image_credit: "
     post.puts "category: "
     post.puts "tags: []"
-    post.puts "meta_description: "
     post.puts "---"
   end
 end # task :post

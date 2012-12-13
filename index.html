@@ -3,38 +3,44 @@ layout: default
 title: david out of context
 ---
 
-<div class="posts">
-{% for post in paginator.posts %}
-	<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-	<small>{{ post.date | date: "%d %B %Y" }}</small>
+<div id="index">
+	<div id="posts">
+		{% for post in paginator.posts %}
 
-	{% if post.image %}
-	<div>
-		<img class="post-image" src="{{ post.image }}" height="300px"/>
-	</div>
-	{% endif %}
-	<div class="content">
-		{{ post.content }}
-	</div>
-{% endfor %}
-</div>
+		<div class="post">
+			<div class="title row">
+				<h2 class="span6"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+				<div class="span2">{{ post.date | date: "%d %B %Y" }}</div>
+			</div>
 
-<div class="pagination">
-	<ul>
-		{% if paginator.next_page %}
-	    <li class="next"> 
-			<a href="/page{{paginator.next_page}}" title="Next Page" class="next" rel="next">&larr; Older Posts</a>
-			</li>
-	  {% endif %}
-	
-	  {% if paginator.previous_page %}
-	    <li class="prev">
-				{% if paginator.previous_page == 1 %}
-      		<a href="/" title="Previous Page" class="prev">Newer Posts &rarr;</a>
-      	{% else %}
-					<a href="/page{{paginator.previous_page}}" title="Previous Page" class="prev" rel="prev">Newer Posts &rarr;</a>
-				{% endif %}
-			</li>
-	  {% endif %}
-	</ul>
+			{% if post.image %}
+			<img src="{{ post.image }}"/>
+			{% endif %}
+
+			<div class="content">
+				{{ post.content }}
+			</div>
+		</div>
+
+		{% endfor %}
+	</div>
+	<div id="pagination">
+		<ul>
+			{% if paginator.next_page %}
+		    <li class="next"> 
+				<a href="/page{{paginator.next_page}}" title="Next Page" class="next" rel="next">&larr; Older Posts</a>
+				</li>
+		  {% endif %}
+		
+		  {% if paginator.previous_page %}
+		    <li class="prev">
+					{% if paginator.previous_page == 1 %}
+	      		<a href="/" title="Previous Page" class="prev">Newer Posts &rarr;</a>
+	      	{% else %}
+						<a href="/page{{paginator.previous_page}}" title="Previous Page" class="prev" rel="prev">Newer Posts &rarr;</a>
+					{% endif %}
+				</li>
+		  {% endif %}
+		</ul>
+	</div>
 </div>
