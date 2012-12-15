@@ -29,7 +29,7 @@ tags: [pasta, chemistry, warehome, recipe]
 * Carrots, *8 large*
 * Garlic, *8 cloves*
 * Italian Parsley
-* Basil
+* Fresh Basil
 
 ##### Canned Vegetables
 * Tomato Paste, *18 oz*
@@ -54,7 +54,7 @@ tags: [pasta, chemistry, warehome, recipe]
 
 4. Add carrots and celery, coat with sea salt.  Cook until translucent, maybe 10 or so minutes.  Keep stirring!
 
-5. Add tomato paste and add some water as necessary to keep the mixture from dying out and burning.  Let tomato paste [caramelize][2].
+5. Add tomato paste and add some water as necessary to keep the mixture from drying out and burning.  Let tomato paste [caramelize][2].
 
 6. Move entire mixture to a large pot.
 
