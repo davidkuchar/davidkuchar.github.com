@@ -32,4 +32,4 @@ Everything planned is based on a hypothesis, everything done is an experiment.  
 
 [1]: http://bretthard.in/2012/11/learn-by-doing-it/
 [2]: http://www.bothsidesofthetable.com/2012/11/20/entrepreneurs-dont-think-enough-heres-what-to-do-about-it/
-[3]: http://www.joelonsoftware.com/articles/fog0000000073.html
+[3]: http://www.joelonsoftware.com/articles/GuerrillaInterviewing3.html
