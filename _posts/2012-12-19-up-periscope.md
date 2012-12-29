@@ -3,12 +3,13 @@ layout: post
 title: "Up Periscope"
 image: http://farm1.staticflickr.com/208/447130208_6c506c9ee6.jpg
 category: goals
-tags: [productivity, goals, startups, live]
+tags: [productivity, goals, startups, life]
+publish: true
 ---
 
 In San Francisco, I'm continuously surrounded by doers and it's refreshing. There's a lot of forward momentum, it's infectious, and people learn most effectively by [doing][1]. There's knowing something's right in your head, and there's knowing something's right in your gut - and guts come from experience. So given a choice, focusing on execution is the best way to go.
 
-The fact that you follow through on your plans is valuable, but it's just an ante.  You need to know when to pull your head out of the sand and get your bearings straight, or you'll end up somewhere sub optimal.  So rather than just do, take time to plan and [think][2]. 
+The fact that you follow through on your plans is valuable, but it's just an ante. You need to know when to pull your head out of the sand and get your bearings straight, or you'll end up somewhere sub optimal. So rather than just do, take time to plan and [think][2]. 
 
 It's important to not only begin with the end in mind, not only to choose our ends wisely, and not only to follow through effectively, but to repeat this entire process for goals in every facet of our lives, at a pace matching the scope of each endeavor.
 

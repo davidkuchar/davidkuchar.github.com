@@ -37,6 +37,7 @@ task :post do
     post.puts "image: "
     post.puts "category: "
     post.puts "tags: []"
+    post.puts "publish: false"
     post.puts "---"
   end
 end # task :post

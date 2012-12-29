@@ -4,6 +4,7 @@ title: "Pasta for Forty: The Recipe"
 image: https://sphotos-a.xx.fbcdn.net/hphotos-prn1/550939_636760869167_1593005442_n.jpg
 category: food
 tags: [pasta, chemistry, warehome, recipe] 
+publish: true
 ---
 
 ### Ingredients

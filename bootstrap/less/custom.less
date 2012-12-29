@@ -16,36 +16,51 @@
 //Custom Variables
 
 @headerfont : 'Libre Baskerville', serif;
-@posttitlefont : Georgia, Helvetica, sans-serif;
-@bodyfont : Georgia, Helvetica, sans-serif;
+@posttitlefont : Georgia, Helvetica, serif;
+@bodyfont : Helvetica Neue, Helvetica, Arial, sans-serif;
 
 @primarycolor : #68B38F;
 @secondarycolor : #87BDB1;
-@primarybgcolor : #444444;
+@tirtiarycolor: #DDDDDD;
+@primarybgcolor : #333333;
 @secondarybgcolor : #D3E2B6;
 @bodycolor : #333333;
 @linkColor: @primarycolor;
+@headerlinkColor: @tirtiarycolor;
 
 small {font-size:0.9em;}
-h1 {font-family:@headerfont;}
-h2 {font-family:@posttitlefont;}
+h1 {font-family:@headerfont;font-size:2.1em;}
+h2 {font-family:@posttitlefont;font-size:1.7em;}
 li {line-height:1.5em;}
-
+a {
+	&:hover {color:@primarycolor;}
+}
 // freight sans
 // georgia
 // proxima nova
 
-body {font-size:1.1em;line-height:1.5em;color:@bodycolor;background-color:@secondarybgcolor;font-family:@bodyfont;
-	header {background-color: @primarybgcolor;padding:20px 0;}
+body {font-size:1.3em;line-height:1.5em;color:@bodycolor;background-color:@secondarybgcolor;font-family:@bodyfont;
+	&.debut_dark {background:url(/assets/img/debut_dark/debut_dark.png) repeat;}
+	&.navy_blue {background:url(/assets/img/navy_blue/navy_blue.png) repeat;}
+	.debut_light {background:url(/assets/img/debut_light/debut_light.png) repeat;}
+	.creampaper {background:url(/assets/img/creampaper/creampaper.png) repeat;}
+	.white_wall {background:url(/assets/img/white_wall/white_wall.png) repeat;}
+	header {background-color:@primarybgcolor;padding:20px 0;text-align:center;-webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.35);box-shadow: 0 2px 3px rgba(0, 0, 0, 0.35);-moz-box-shadow: 0 2px 3px rgba(0,0,0,0.35);
+		h1 {font-size:50px;
+			a {color:@headerlinkColor;
+				&:hover {color:@headerlinkColor;}
+			}
+		}
+	}
 	section {
-		&#content {padding:30px 0;background-color:#FFFFFF;
+		&#content {padding:60px 0;text-shadow: 1px 1px #ffffff;
 			#index {
 				#posts {
 					.post {margin-bottom:50px;
 						.title {margin-bottom:15px;
 							small {line-height:40px;margin:10px 0 10px 20px;}
 						}
-						img {width:300px;float:right;}
+						img {width:300px;float:right;margin-left:20px;}
 						.content {}
 					}
 				}
@@ -55,14 +70,17 @@ body {font-size:1.1em;line-height:1.5em;color:@bodycolor;background-color:@secon
 				.title {margin-bottom:15px;
 					small {line-height:40px;margin:10px 0 10px 20px;}
 				}
-				img {width:300px;float:right;}
+				img {width:300px;float:right;margin-left:20px;}
 				.content {}
 				.comments {margin-top:30px;}
 			}
 		}
 	}
-	footer {padding:30px;background-color:@secondarybgcolor;
-		ul {margin:0;list-style:none;
+	footer {padding:30px;color:@headerlinkColor;border-top:black 1px solid;
+		a {color:@headerlinkColor;
+			&:hover {color:@headerlinkColor;}
+		}
+		ul {margin:0 auto;list-style:none;
 			li {float:left;}
 			span {margin:0 10px;}
 		}

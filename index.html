@@ -6,11 +6,11 @@ title: david out of context
 <div id="index">
 	<div id="posts">
 		{% for post in paginator.posts %}
-
+			{% if post.publish %}
 		<div class="post">
 			<div class="title row">
-				<h2 class="span6"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-				<small class="span2">{{ post.date | date: "%d %B %Y" }}</small>
+				<h2 class="span7"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+				<small class="span3">{{ post.date | date: "%d %B %Y" }}</small>
 			</div>
 
 			{% if post.image %}
@@ -21,7 +21,7 @@ title: david out of context
 				{{ post.content }}
 			</div>
 		</div>
-
+			{% endif %}
 		{% endfor %}
 	</div>
 	<div id="pagination">
@@ -29,18 +29,18 @@ title: david out of context
 			{% if paginator.next_page %}
 		    <li class="next"> 
 				<a href="/page{{paginator.next_page}}" title="Next Page" class="next" rel="next">&larr; Older Posts</a>
-				</li>
-		  {% endif %}
+			</li>
+	  		{% endif %}
 		
-		  {% if paginator.previous_page %}
+		  	{% if paginator.previous_page %}
 		    <li class="prev">
-					{% if paginator.previous_page == 1 %}
+				{% if paginator.previous_page == 1 %}
 	      		<a href="/" title="Previous Page" class="prev">Newer Posts &rarr;</a>
-	      	{% else %}
-						<a href="/page{{paginator.previous_page}}" title="Previous Page" class="prev" rel="prev">Newer Posts &rarr;</a>
-					{% endif %}
-				</li>
-		  {% endif %}
+      			{% else %}
+				<a href="/page{{paginator.previous_page}}" title="Previous Page" class="prev" rel="prev">Newer Posts &rarr;</a>
+				{% endif %}
+			</li>
+		  	{% endif %}
 		</ul>
 	</div>
 </div>

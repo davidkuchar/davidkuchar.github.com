@@ -835,14 +835,21 @@ a.label:hover,a.badge:hover{color:#ffffff;text-decoration:none;cursor:pointer;}
 .invisible{visibility:hidden;}
 .affix{position:fixed;}
 small{font-size:0.9em;}
-h1{font-family:'Libre Baskerville',serif;}
-h2{font-family:Georgia,Helvetica,sans-serif;}
+h1{font-family:'Libre Baskerville',serif;font-size:2.1em;}
+h2{font-family:Georgia,Helvetica,serif;font-size:1.7em;}
 li{line-height:1.5em;}
-body{font-size:1.1em;line-height:1.5em;color:#333333;background-color:#d3e2b6;font-family:Georgia,Helvetica,sans-serif;}body header{background-color:#444444;padding:20px 0;}
-body section#content{padding:30px 0;background-color:#FFFFFF;}body section#content #index #posts .post{margin-bottom:50px;}body section#content #index #posts .post .title{margin-bottom:15px;}body section#content #index #posts .post .title small{line-height:40px;margin:10px 0 10px 20px;}
-body section#content #index #posts .post img{width:300px;float:right;}
+a:hover{color:#68b38f;}
+body{font-size:1.3em;line-height:1.5em;color:#333333;background-color:#d3e2b6;font-family:Helvetica Neue,Helvetica,Arial,sans-serif;}body.debut_dark{background:url(/assets/img/debut_dark/debut_dark.png) repeat;}
+body.navy_blue{background:url(/assets/img/navy_blue/navy_blue.png) repeat;}
+body .debut_light{background:url(/assets/img/debut_light/debut_light.png) repeat;}
+body .creampaper{background:url(/assets/img/creampaper/creampaper.png) repeat;}
+body .white_wall{background:url(/assets/img/white_wall/white_wall.png) repeat;}
+body header{background-color:#333333;padding:20px 0;text-align:center;-webkit-box-shadow:0 2px 3px rgba(0, 0, 0, 0.35);box-shadow:0 2px 3px rgba(0, 0, 0, 0.35);-moz-box-shadow:0 2px 3px rgba(0, 0, 0, 0.35);}body header h1{font-size:50px;}body header h1 a{color:#dddddd;}body header h1 a:hover{color:#dddddd;}
+body section#content{padding:60px 0;text-shadow:1px 1px #ffffff;}body section#content #index #posts .post{margin-bottom:50px;}body section#content #index #posts .post .title{margin-bottom:15px;}body section#content #index #posts .post .title small{line-height:40px;margin:10px 0 10px 20px;}
+body section#content #index #posts .post img{width:300px;float:right;margin-left:20px;}
 body section#content #post .title{margin-bottom:15px;}body section#content #post .title small{line-height:40px;margin:10px 0 10px 20px;}
-body section#content #post img{width:300px;float:right;}
+body section#content #post img{width:300px;float:right;margin-left:20px;}
 body section#content #post .comments{margin-top:30px;}
-body footer{padding:30px;background-color:#d3e2b6;}body footer ul{margin:0;list-style:none;}body footer ul li{float:left;}
+body footer{padding:30px;color:#dddddd;border-top:black 1px solid;}body footer a{color:#dddddd;}body footer a:hover{color:#dddddd;}
+body footer ul{margin:0 auto;list-style:none;}body footer ul li{float:left;}
 body footer ul span{margin:0 10px;}
