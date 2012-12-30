@@ -839,7 +839,7 @@ h1{font-family:'Libre Baskerville',serif;font-size:2.1em;}
 h2{font-family:Georgia,Helvetica,serif;font-size:1.7em;}
 li{line-height:1.5em;}
 a:hover{color:#68b38f;}
-body{font-size:1.3em;line-height:1.5em;color:#333333;background-color:#d3e2b6;font-family:Helvetica Neue,Helvetica,Arial,sans-serif;}body.debut_dark{background:url(/assets/img/debut_dark/debut_dark.png) repeat;}
+body{font-size:1.3em;line-height:1.5em;color:#333333;font-family:Helvetica Neue,Helvetica,Arial,sans-serif;}body.debut_dark{background:url(/assets/img/debut_dark/debut_dark.png) repeat;}
 body.navy_blue{background:url(/assets/img/navy_blue/navy_blue.png) repeat;}
 body .debut_light{background:url(/assets/img/debut_light/debut_light.png) repeat;}
 body .creampaper{background:url(/assets/img/creampaper/creampaper.png) repeat;}
@@ -853,3 +853,4 @@ body section#content #post .comments{margin-top:30px;}
 body footer{padding:30px;color:#dddddd;border-top:black 1px solid;}body footer a{color:#dddddd;}body footer a:hover{color:#dddddd;}
 body footer ul{margin:0 auto;list-style:none;}body footer ul li{float:left;}
 body footer ul span{margin:0 10px;}
+body footer form input[type="text"]{margin-bottom:0;}

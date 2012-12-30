@@ -19,24 +19,25 @@
 	<div class="debut_light">
 		<header>
 			<div class="container">
-				<h1><a href="/">david out of context</a></h1>
-				<!--
-	 			<ul class="nav nav-pills">
-					<li>
-						<a href="/about.html">about me</a>
-					</li>
-				</ul>
-				-->
+				<div class="row">
+					<h1><a href="/">david out of context</a></h1>
+					<!--
+		 			<ul class="nav nav-pills">
+						<li>
+							<a href="/about.html">about me</a>
+						</li>
+					</ul>
+					-->
+				</div>
 			</div>
 		</header>
 
 		<section id="content">
 			<div class="container">
-				<div class="span10 offset1">
-					{{ content }}
-				</div>
-				<div class="span2">
-					
+				<div class="row">
+					<div class="span10 offset1">
+						{{ content }}
+					</div>
 				</div>
 			</div>
 		</section>
@@ -44,21 +45,24 @@
 
 	<footer>
 		<div class="container">
-			<div class="span7">
-				<ul>
-					<li><a href="https://facebook.com/davekuchar" target="_default">facebook</a><span>|</span></li>
-					<li><a href="https://twitter.com/davidkuchar" target="_default">twitter</a><span>|</span></li>
-					<li><a href="https://github.com/davidkuchar" target="_default">github</a><span>|</span></li>
-					<li>&copy; 2012 David Kuchar</li>
-				</ul>
-			</div>
-			<div class="span4">
-				<form action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=davidkuchar', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true" style="margin-bottom: 0px">
-					<input type="text" placeholder="Subscribe via email" name="email"/>
-					<input type="hidden" value="davidkuchar" name="uri"/>
-					<input type="hidden" name="loc" value="en_US"/>
-					<input type="submit" class="btn btn-success" value="Subscribe!" onclick="_gaq.push(['_trackEvent', 'Subscribe', 'Email', 'Top Bar']);"/>
-				</form>
+			<div class="row">
+				<div class="span5 offset1">
+					<ul>
+						<li><a href="https://facebook.com/davekuchar" target="_default">facebook</a><span>|</span></li>
+						<li><a href="https://twitter.com/davidkuchar" target="_default">twitter</a><span>|</span></li>
+						<li><a href="https://github.com/davidkuchar" target="_default">github</a></li>
+					</ul>
+					<div style="clear:both;"></div>
+					<div>&copy; 2012 David Kuchar</div>
+				</div>
+				<div class="span5">
+					<form action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=davidkuchar', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true" style="margin-bottom: 0px">
+						<input type="text" placeholder="Subscribe via email" name="email"/>
+						<input type="hidden" value="davidkuchar" name="uri"/>
+						<input type="hidden" name="loc" value="en_US"/>
+						<input type="submit" class="btn btn-success" value="Subscribe!" onclick="_gaq.push(['_trackEvent', 'Subscribe', 'Email', 'Footer']);"/>
+					</form>
+				</div>
 			</div>
 		</div>
 	</footer>
