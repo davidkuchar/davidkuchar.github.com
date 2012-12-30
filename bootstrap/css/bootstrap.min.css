@@ -839,12 +839,12 @@ h1{font-family:'Libre Baskerville',serif;font-size:2.1em;}
 h2{font-family:Georgia,Helvetica,serif;font-size:1.7em;}
 li{line-height:1.5em;}
 a:hover{color:#68b38f;}
-body{font-size:1.3em;line-height:1.5em;color:#333333;font-family:Helvetica Neue,Helvetica,Arial,sans-serif;}body.debut_dark{background:url(/assets/img/debut_dark/debut_dark.png) repeat;}
-body.navy_blue{background:url(/assets/img/navy_blue/navy_blue.png) repeat;}
-body .debut_light{background:url(/assets/img/debut_light/debut_light.png) repeat;}
+body{font-size:1.3em;line-height:1.5em;color:#333333;font-family:Helvetica Neue,Helvetica,Arial,sans-serif;background-color:#333333;}body .debut_light{background:url(/assets/img/debut_light/debut_light.png) repeat;}
 body .creampaper{background:url(/assets/img/creampaper/creampaper.png) repeat;}
 body .white_wall{background:url(/assets/img/white_wall/white_wall.png) repeat;}
-body header{background-color:#333333;padding:20px 0;text-align:center;-webkit-box-shadow:0 2px 3px rgba(0, 0, 0, 0.35);box-shadow:0 2px 3px rgba(0, 0, 0, 0.35);-moz-box-shadow:0 2px 3px rgba(0, 0, 0, 0.35);}body header h1{font-size:50px;}body header h1 a{color:#dddddd;}body header h1 a:hover{color:#dddddd;}
+body header{padding:20px 0;text-align:center;-webkit-box-shadow:0 2px 3px rgba(0, 0, 0, 0.35);box-shadow:0 2px 3px rgba(0, 0, 0, 0.35);-moz-box-shadow:0 2px 3px rgba(0, 0, 0, 0.35);}body header.debut_dark{background:url(/assets/img/debut_dark/debut_dark.png) repeat;}
+body header.navy_blue{background:url(/assets/img/navy_blue/navy_blue.png) repeat;}
+body header h1{font-size:50px;}body header h1 a{color:#dddddd;}body header h1 a:hover{color:#dddddd;}
 body section#content{padding:60px 0;text-shadow:1px 1px #ffffff;}body section#content #index #posts .post{margin-bottom:50px;}body section#content #index #posts .post .title{margin-bottom:15px;}body section#content #index #posts .post .title small{line-height:40px;margin:10px 0 10px 20px;}
 body section#content #index #posts .post img{width:300px;float:right;margin-left:20px;}
 body section#content #post .title{margin-bottom:15px;}body section#content #post .title small{line-height:40px;margin:10px 0 10px 20px;}
