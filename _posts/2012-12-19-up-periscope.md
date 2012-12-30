@@ -21,6 +21,9 @@ You may be forced to ask yourself, "Did I just spend all this time building some
 
 Everything planned is based on a hypothesis, everything carried out is an experiment. Periodically evaluate your progress in each part of your life, adjust your plans as necessary and don't be afraid to move on to the next trial when you've identified that the current one has run it's course.
 
+> Thanks to [Charlotte Aldrich][4] for reviewing this.
+
 [1]: http://bretthard.in/2012/11/learn-by-doing-it/
 [2]: http://www.thielfellowship.org/
 [3]: http://www.joelonsoftware.com/articles/GuerrillaInterviewing3.html
+[4]: http://charlottealdrich.com
