@@ -2,8 +2,17 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="/bootstrap/css/bootstrap.min.css"/>
+  	<!-- RSS FEED -->
+  	<link href="{{ site.feed }}" rel="alternate" type="application/atom+xml" title="David Kuchar" />
 	<link href='http://fonts.googleapis.com/css?family=Libre+Baskerville' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Domine' rel='stylesheet' type='text/css'>
+	{% if page.title %}
+  		<title>David out of context | {{ page.title }}</title>
+	{% else %}
+		<title>David out of context</title>
+	{% endif %}
+
+	{% include analytics.html %}
 </head>
 
 <body class="debut_dark">
@@ -35,13 +44,21 @@
 
 	<footer>
 		<div class="container">
-			<div class="span10 offset1">
+			<div class="span7">
 				<ul>
 					<li><a href="https://facebook.com/davekuchar" target="_default">facebook</a><span>|</span></li>
 					<li><a href="https://twitter.com/davidkuchar" target="_default">twitter</a><span>|</span></li>
 					<li><a href="https://github.com/davidkuchar" target="_default">github</a><span>|</span></li>
 					<li>&copy; 2012 David Kuchar</li>
 				</ul>
+			</div>
+			<div class="span4">
+				<form action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=davidkuchar', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true" style="margin-bottom: 0px">
+					<input type="text" placeholder="Subscribe via email" name="email"/>
+					<input type="hidden" value="davidkuchar" name="uri"/>
+					<input type="hidden" name="loc" value="en_US"/>
+					<input type="submit" class="btn btn-success" value="Subscribe!" onclick="_gaq.push(['_trackEvent', 'Subscribe', 'Email', 'Top Bar']);"/>
+				</form>
 			</div>
 		</div>
 	</footer>
