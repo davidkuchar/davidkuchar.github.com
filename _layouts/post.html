@@ -3,10 +3,7 @@ layout: default
 ---
 
 <div id="post">
-	<div class="title row">
-		<h2 class="span7"><a href="{{ page.url }}">{{ page.title }}</a></h2>
-		<small class="span3">{{ page.date | date: "%d %B %Y" }}</small>
-	</div>
+	{% include title_row.html %}
 
 	{% if page.image %}
 	<img src="{{ page.image }}"/>
