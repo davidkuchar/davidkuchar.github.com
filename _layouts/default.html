@@ -6,6 +6,8 @@
   	<link href="{{ site.feed }}" rel="alternate" type="application/atom+xml" title="David Kuchar" />
 	<link href='http://fonts.googleapis.com/css?family=Libre+Baskerville' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Domine' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="/assets/css/font-awesome.min.css">
+
 	{% if page.title %}
   		<title>David out of context | {{ page.title }}</title>
 	{% else %}
@@ -17,18 +19,9 @@
 
 <body>
 	<div class="debut_light">
-		<header class="debut_dark">
-			<div class="container">
-				<div class="row">
-					<h1><a href="/">david out of context</a></h1>
-					<!--
-		 			<ul class="nav nav-pills">
-						<li>
-							<a href="/about.html">about me</a>
-						</li>
-					</ul>
-					-->
-				</div>
+		<header>
+			<div class="container thick_bottom_line">
+				<a href="/"><img class="logo" src="/assets/img/logo.png" /></a>
 			</div>
 		</header>
 
@@ -48,14 +41,19 @@
 			<div class="row">
 				<div class="span5 offset1">
 					<ul>
+						<a href="https://facebook.com/davekuchar" target="_default"><i class="icon-twitter-sign icon-2x"></i></a>
+						<a href="https://twitter.com/davidkuchar" target="_default"><i class="icon-facebook-sign icon-2x"></i></a>
+						<a href="https://github.com/davidkuchar" target="_default"><i class="icon-github-sign icon-2x"></i></a>
+						<!--
 						<li><a href="https://facebook.com/davekuchar" target="_default">facebook</a><span>|</span></li>
 						<li><a href="https://twitter.com/davidkuchar" target="_default">twitter</a><span>|</span></li>
 						<li><a href="https://github.com/davidkuchar" target="_default">github</a></li>
+						-->
 					</ul>
 					<div style="clear:both;"></div>
 					<div>&copy; 2012 David Kuchar</div>
 				</div>
-				<div class="span5">
+				<div class="span5 offset1">
 					<form action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=davidkuchar', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true" style="margin-bottom: 0px">
 						<input type="text" placeholder="Subscribe via email" name="email"/>
 						<input type="hidden" value="davidkuchar" name="uri"/>
