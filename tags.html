@@ -9,13 +9,11 @@ title: tags
 </ul>
 
 <div class="span5">
-{% for tag in site.tags %} 
-  <h2 id="{{ tag[0] }}-ref">{{ tag[0] }}</h2>
-  <ul>
-    {% assign pages_list = tag[1] %}  
-    {% include pages_list %}
-  </ul>
-{% endfor %}
-</div>
-
+	{% for tag in site.tags %} 
+		<h2 id="{{ tag[0] }}-ref">{{ tag[0] }}</h2>
+		<ul>
+		    {% assign pages_list = tag[1] %}  
+	    	{% include pages_list %}
+		</ul>
+	{% endfor %}
 </div>
