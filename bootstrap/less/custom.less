@@ -15,9 +15,9 @@
 
 //Custom Variables
 
-@headerfont : 'Libre Baskerville', serif;
-@posttitlefont : Georgia, Helvetica, serif;
-@bodyfont : Helvetica Neue, Helvetica, Arial, sans-serif;
+@headerFont: 'Libre Baskerville', serif;
+@postTitleFont: Georgia, Helvetica, serif;
+@baseFontFamily: Helvetica Neue, Helvetica, Arial, sans-serif;
 @baseFontSize: 15px;
 @myColor: #666;
 @linkColor: #d518be;
@@ -32,17 +32,31 @@ header {
 			width: 150px;
 			position: relative;
 			top: 25px;
+			left: 20px;
 		}	
 	}
 }
 
 body {
 	text-align: justify;
+	background-color: @myColor;
 }
 
-.title h1 {
-	margin-bottom: 15px;
-	margin-left: 20px;
+.container {
+	background-color: white;
+}
+
+.title {
+	margin-top: 20px;
+	margin-left: 0px;
+
+	h1 {
+		font-family: @postTitleFont;
+	}
+
+	.date {
+		color: @myColor;
+	}
 
 	a {
 		background-color: @myColor;
@@ -52,13 +66,9 @@ body {
 }
 
 footer {
-	padding: 30px;
+	padding: 20px 0px 30px 0px;
 	color: @myColor;
-	
-	.container {
-		border-top: 5px solid #EEE;
-		padding-top: 20px;
-	}
+	border-top: 5px solid #EEE;	
 
 	i {
 		padding-right: 5px;
