@@ -1,0 +1,14 @@
+---
+layout: page
+title: All Posts
+---
+
+<h1>All Posts</h1>
+
+{% for page in site.posts %}
+<ul>
+	{% if page.publish %}
+		<li><a href="{{page.url}}">{{ page.title }}</a></li>
+	{% endif %}
+</ul>
+{% endfor %}

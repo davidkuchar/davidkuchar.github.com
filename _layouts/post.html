@@ -6,12 +6,18 @@ layout: default
 	{% include title_row.html %}
 
 	{% if page.image %}
-	<img src="{{ page.image }}"/>
+	<img class="right img-polaroid" width="300px" src="{{ page.image }}"/>
 	{% endif %}
 
 	<div class="content">
 		{{ content }}
 	</div>
+
+	<!-- Tags -->
+	<ul class="tag_box inline">
+		{% assign tags_list = page.tags %}
+  		{% include tags_list %}
+	</ul>
 
 	<div class="comments">
 
