@@ -3,7 +3,7 @@ layout: post
 title: "The Antifragile Business"
 image: 
 category: business
-tags: [books,startups,business]
+tags: [books, startups, business, taleb]
 publish: true
 ---
 
