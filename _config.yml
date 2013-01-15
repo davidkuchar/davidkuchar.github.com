@@ -1,5 +1,5 @@
 auto: true
-paginate: 3 //the number of post per page
+paginate: 10 //the number of post per page
 permalink: /:categories/:year/:title
 url: http://davidkuchar.com
 server_port: 4000
