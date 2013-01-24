@@ -10,8 +10,8 @@ title: david out of context
 				<div class="post">
 					{% include title_row.html %}
 
-					{% if post.image %}
-					<img src="{{ page.image }}"/>
+					{% if page.image %}
+					<img class="right img-polaroid" width="300px" src="{{ page.image }}"/>
 					{% endif %}
 
 					<div class="content">
