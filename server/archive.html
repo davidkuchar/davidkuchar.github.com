@@ -4,18 +4,29 @@
 	<meta name="viewport" content="width=device-wid  th, initial-scale=1.0">
 	<link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
   	<!-- RSS FEED -->
-  	<link href="{{ site.feed }}" rel="alternate" type="application/atom+xml" title="David Kuchar" />
+  	<link href="http://feeds.feedburner.com/davidkuchar" rel="alternate" type="application/atom+xml" title="David Kuchar" />
 	<link href='http://fonts.googleapis.com/css?family=Libre+Baskerville' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Domine' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="/assets/css/font-awesome.min.css">
 
-	{% if page.title %}
-  		<title>David out of context | {{ page.title }}</title>
-	{% else %}
-		<title>David out of context</title>
-	{% endif %}
+	
+  		<title>David out of context | All Posts</title>
+	
 
-	{% include analytics.html %}
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-18362392-1']);
+  _gaq.push(['_setDomainName', 'davidkuchar.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 </head>
 
 <body>
@@ -29,7 +40,58 @@
 		<section id="content">
 			<div class="row">
 				<div class="span10 offset1">
-					{{ content }}
+					<h1>All Posts</h1>
+
+
+<ul>
+	
+</ul>
+
+<ul>
+	
+</ul>
+
+<ul>
+	
+		<li><a href="/life/2013/longevity">Longevity</a></li>
+	
+</ul>
+
+<ul>
+	
+		<li><a href="/business/2013/the-antifragile-business">The Antifragile Business</a></li>
+	
+</ul>
+
+<ul>
+	
+</ul>
+
+<ul>
+	
+		<li><a href="/goals/2012/up-periscope">Up Periscope</a></li>
+	
+</ul>
+
+<ul>
+	
+		<li><a href="/writing/2012/blogging">Blogging</a></li>
+	
+</ul>
+
+<ul>
+	
+		<li><a href="/food/2012/pasta-for-forty-the-recipe">Pasta for Forty: The Recipe</a></li>
+	
+</ul>
+
+<ul>
+	
+		<li><a href="/food/2012/pasta-for-forty">Pasta for Forty</a></li>
+	
+</ul>
+
+
 				</div>
 			</div>
 		</section>
@@ -42,7 +104,7 @@
 						<li><a href="https://twitter.com/davidkuchar" target="_default"><i class="icon-twitter-sign icon-2x"></i></a></li>
 						<li><a href="https://github.com/davidkuchar" target="_default"><i class="icon-github-sign icon-2x"></i></a></li>
 						<li>
-							<a href="https://staging-web.delectable.com/u/david-kuchar/" class="delectable-follow-button" data-size="large">Follow David Kuchar</a>
+							<a href="https://staging-web.delectable.com/u/david-kuchar/" class="delectable-follow-button" data-size="small">Follow David Kuchar</a>
 							<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//staging-web.delectable.com/assets/follow-on-delectable.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","follow-on-delectable");</script>
 						</li>
 
@@ -53,7 +115,7 @@
 						-->
 					</ul>
 					<div style="clear:both;"></div>
-					<div>&copy; {{ site.time | date: '%Y' }} David Kuchar</div>
+					<div>&copy; 2013 David Kuchar</div>
 				</div>
 				<div class="span5 offset1">
 					<form action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=davidkuchar', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true" style="margin-bottom: 0px">

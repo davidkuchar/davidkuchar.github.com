@@ -1,0 +1,107 @@
+// ----------------------
+// Stock Bootstrap stuff.
+// ----------------------
+
+@import "bootstrap.less";
+
+// -----------------------
+// Custom stuff goes here.
+// -----------------------
+
+// bootstrap.less doesn't include the responsive CSS. Pull it in.
+
+@import "responsive.less";
+
+//Custom Variables
+
+@headerFont: 'Libre Baskerville', serif;
+@postTitleFont: Georgia, Helvetica, serif;
+@baseFontFamily: Helvetica Neue, Helvetica, Arial, sans-serif;
+@baseFontSize: 17px;
+@baseLineHeight: 25px;
+@myColor: #666;
+@linkColor: #d518be;
+
+/* Large desktop */
+@media (min-width: 1200px) {  }
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {  }
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {  }
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {  }
+
+header {
+	div.thick_bottom_line {
+		border-bottom: 5px solid @linkColor;
+		margin-bottom: 55px;
+		height: 120px;
+
+		img.logo {
+			width: 150px;
+			position: relative;
+			top: 25px;
+			left: 20px;
+		}	
+	}
+}
+
+body {
+	text-align: justify;
+	background-color: @myColor;
+}
+
+.container {
+	background-color: white;
+}
+
+.title {
+	margin-top: 20px;
+	margin-left: 0px;
+
+	h1 {
+		font-family: @postTitleFont;
+	}
+
+	.date {
+		color: @myColor;
+	}
+
+	a {
+		background-color: @myColor;
+		color: white;
+		padding: 5px 15px 5px 15px;
+	}
+}
+
+.right {
+	float:right;
+	margin:0 0 15px 30px;
+}
+
+footer {
+	padding: 20px 0px 30px 0px;
+	color: @myColor;
+	border-top: 5px solid #EEE;	
+
+	i {
+		padding-right: 5px;
+	}
+
+	a {
+		color: @myColor;
+		&:hover {color: @myColor}
+	}
+	
+	ul {
+		margin:0 auto;list-style:none;
+		li { float:left; }
+		span { margin:0 10px; }
+	}
+	form {
+		input[type="text"] {margin-bottom:0;}
+	}
+}
