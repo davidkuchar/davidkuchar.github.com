@@ -1,0 +1,100 @@
+
+/* Calico Swatch
+https://color.adobe.com/Calico-color-theme-2050808/
+#D4C9CD
+#272324
+#706968
+#C19C7D
+#FDFFFF
+*/
+
+body {
+  padding: 10% 0;
+  font-family: 'Noto Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  /*background-color:#D4C9CD;*/
+  /*background-color:#272324;*/
+  /*background-color:#706968;*/
+  /*background-color:#C19C7D;*/
+  background-color:#FDFFFF;
+  color:#272324;
+  margin:0;
+}
+
+.container {
+  display: table;
+  margin: 0 auto;
+  width:300px;
+  text-align:center;
+}
+
+header {
+  /*background-color:#C19C7D;*/
+}
+
+header .headshot {
+  width: 125px;
+  border-radius: 250px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+}
+
+main {
+  background-color:#C19C7D;
+  padding:40px 0;
+}
+
+.contact-button {
+  color: #fff;
+  background-color: #6496c8;
+  text-shadow: -1px 1px #417cb8;
+  border: none;
+
+  text-decoration: none;
+
+  display: inline-block;
+  /*margin: 0 10px 0 0;*/
+  padding: 15px;
+  font-size: 1em;
+  /*line-height: 1em;*/
+  appearance: none;
+  box-shadow: none;
+  border-radius: 0;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+}
+
+.contact-button:focus {
+  outline: none
+}
+
+.contact-button:hover {
+  background-color: #346392;
+  text-shadow: -1px 1px #27496d;
+}
+
+.contact-button:active {
+  background-color: #27496d;
+  text-shadow: -1px 1px #193047;
+}
+
+footer {
+  margin: 40px 0 0 0;
+  color:#FDFFFF;
+}
+
+footer i {
+  color:#D4C9CD;
+}
+
+ul.inline {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position:relative;
+}
+
+ul.inline li {
+  float:left;
+  height:40px;
+  padding: 5px 10px;
+}

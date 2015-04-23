@@ -1,8 +1,7 @@
-auto: true
-paginate: 10 //the number of post per page
+paginate: 10
 permalink: /:categories/:year/:title
 url: http://davidkuchar.com
-server_port: 4000
+port: 4000
 markdown: rdiscount
 // feed: http://feeds.davidkuchar.com/davidkuchar
 feed: http://feeds.feedburner.com/davidkuchar

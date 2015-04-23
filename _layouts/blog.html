@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-wid  th, initial-scale=1.0">
+	<link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+  	<!-- RSS FEED -->
+  	<link href="{{ site.feed }}" rel="alternate" type="application/atom+xml" title="David Kuchar" />
+	<link href='http://fonts.googleapis.com/css?family=Libre+Baskerville' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Domine' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="/assets/css/font-awesome.min.css">
+
+	{% if page.title %}
+  		<title>David out of context | {{ page.title }}</title>
+	{% else %}
+		<title>David out of context</title>
+	{% endif %}
+
+	{% include analytics.html %}
+</head>
+
+<body>
+	<div class="container">
+		<header>
+			<div class="thick_bottom_line">
+				<a href="/"><img class="logo" src="/assets/img/logo.png" /></a>
+			</div>
+		</header>
+
+		<section id="content">
+			<div class="row">
+				<div class="span10 offset1">
+					{{ content }}
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<div class="row">
+				<div class="span5 offset1">
+					<ul>
+						<li><a href="https://facebook.com/davekuchar" target="_default"><i class="icon-facebook-sign icon-2x"></i></a></li>
+						<li><a href="https://twitter.com/davidkuchar" target="_default"><i class="icon-twitter-sign icon-2x"></i></a></li>
+						<li><a href="https://github.com/davidkuchar" target="_default"><i class="icon-github-sign icon-2x"></i></a></li>
+						<li>
+							<a href="https://www.delectable.com/david-kuchar/follow" class="delectable-follow-button" data-size="large">Follow on Delectable</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//www.delectable.com/assets/delectable-widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","delectable-widgets");</script>
+						</li>
+
+						<!--
+						<li><a href="https://facebook.com/davekuchar" target="_default">facebook</a><span>|</span></li>
+						<li><a href="https://twitter.com/davidkuchar" target="_default">twitter</a><span>|</span></li>
+						<li><a href="https://github.com/davidkuchar" target="_default">github</a></li>
+						-->
+					</ul>
+					<div style="clear:both;"></div>
+					<div>&copy; {{ site.time | date: '%Y' }} David Kuchar</div>
+				</div>
+				<div class="span5 offset1">
+					<form action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=davidkuchar', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true" style="margin-bottom: 0px">
+						<input type="text" placeholder="Subscribe via email" name="email"/>
+						<input type="hidden" value="davidkuchar" name="uri"/>
+						<input type="hidden" name="loc" value="en_US"/>
+						<input type="submit" class="btn btn-success" value="Subscribe!" onclick="_gaq.push(['_trackEvent', 'Subscribe', 'Email', 'Footer']);"/>
+					</form>
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>
