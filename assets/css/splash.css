@@ -8,17 +8,22 @@ https://color.adobe.com/Calico-color-theme-2050808/
 #FDFFFF
 */
 
+/* sandy stone beach ocean diver Swatch
+https://color.adobe.com/sandy-stone-beach-ocean-diver-color-theme-15325/
+#E6E2AF 230/226/175
+#A7A37E 167/163/126
+#EFECCA 239/236/202
+#046380 4/99/128
+#002F2F 0/47/47
+*/
+
 body {
-  padding: 10% 0;
-  font-family: 'Noto Sans', sans-serif;
+  padding: 5% 0;
+  font-family: 'Muli', sans-serif;
   font-style: normal;
   font-weight: 400;
-  /*background-color:#D4C9CD;*/
-  /*background-color:#272324;*/
-  /*background-color:#706968;*/
-  /*background-color:#C19C7D;*/
-  background-color:#FDFFFF;
-  color:#272324;
+  background-color:#A7A37E;
+  color:#002F2F;
   margin:0;
 }
 
@@ -27,10 +32,13 @@ body {
   margin: 0 auto;
   width:300px;
   text-align:center;
+  background-color: #EFECCA;
+  border-radius: 5px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
 }
 
 header {
-  /*background-color:#C19C7D;*/
+  padding: 40px 0 20px;
 }
 
 header .headshot {
@@ -40,8 +48,12 @@ header .headshot {
 }
 
 main {
-  background-color:#C19C7D;
-  padding:40px 0;
+  background-color:#E6E2AF;
+  padding:40px 10px;
+}
+
+main p {
+  margin-bottom:30px;
 }
 
 .contact-button {
@@ -49,14 +61,10 @@ main {
   background-color: #6496c8;
   text-shadow: -1px 1px #417cb8;
   border: none;
-
   text-decoration: none;
-
   display: inline-block;
-  /*margin: 0 10px 0 0;*/
   padding: 15px;
   font-size: 1em;
-  /*line-height: 1em;*/
   appearance: none;
   box-shadow: none;
   border-radius: 0;
@@ -78,12 +86,13 @@ main {
 }
 
 footer {
-  margin: 40px 0 0 0;
+  padding:40px 10px;
+  /*background-color: #A7A37E;*/
   color:#FDFFFF;
 }
 
 footer i {
-  color:#D4C9CD;
+  color:#6496c8;
 }
 
 ul.inline {
@@ -93,8 +102,14 @@ ul.inline {
   position:relative;
 }
 
+ul.inline:after {
+  content:'';
+  display:block;
+  clear: both;
+}
+
 ul.inline li {
-  float:left;
+  float:right;
   height:40px;
   padding: 5px 10px;
 }
